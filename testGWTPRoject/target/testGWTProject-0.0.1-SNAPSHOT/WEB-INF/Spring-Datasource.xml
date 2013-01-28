@@ -1,0 +1,55 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+ 
+<!-- 	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+ 
+		<property name="driverClassName" value="org.firebirdsql.jdbc.FBDriver" />
+		<property name="url" value="jdbc:firebirdsql://localhost:3050/D:\eclipse+worlspace\db\db\GAME.FDB" />
+		<property name="username" value="SYSDBA" />
+		<property name="password" value="masterkey" />
+	</bean> -->
+	
+	<!--
+	 <bean id="dataSourceWow"
+			class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+			
+			
+			<property name="driverClassName" value="org.firebirdsql.jdbc.FBDriver" />
+			<property name="url" value="jdbc:firebirdsql://localhost:3050/D:/eclipse+worlspace/db/db/GAME.FDB" />
+			<property name="username" value="SYSDBA" />
+			<property name="password" value="masterkey" />
+		</bean>-->
+	
+
+    <!-- <context:property-placeholder location="jdbc.properties"/> -->
+ 
+ 
+ <!--
+ 
+   <bean id="greetingServiceTarget" class="GreetingServiceImpl">
+         <property name="greeting">
+             <value>Buenos Dias!</value>
+         </property>
+     </bean>
+  
+     <bean id="simpleAdvice" class="SimpleAdvice" />
+  
+     <bean id="greetingService" class="org.springframework.aop.framework.ProxyFactoryBean">
+         <property name="proxyInterfaces">
+             <value>GreetingService</value>
+         </property>
+         <property name="interceptorNames">
+             <list>
+                 <value>simpleAdvice</value>
+             </list>
+         </property>
+         <property name="target">
+             <ref bean="greetingServiceTarget" />
+         </property>
+     </bean>-->
+ 
+    
+</beans>
