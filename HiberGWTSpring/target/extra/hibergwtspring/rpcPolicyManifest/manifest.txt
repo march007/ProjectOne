@@ -1,0 +1,3 @@
+# Module hibergwtspring
+# RPC service class, partial path of RPC policy file
+ru.vrn.com.client.GreetingService, BB5F5E8BBA45D3FC6D1A7EDF4210FC9A.gwt.rpc
